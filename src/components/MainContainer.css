@@ -1,0 +1,14 @@
+/* .content {
+    margin: 0% auto;
+    max-width: 1000px;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    background-size:100%;
+    background-image: url(../assets/main-img.png);
+} */
+
+.mainContainer {
+    max-height: 99vh;
+    height: 99vh;
+}
