@@ -7,8 +7,92 @@
     background-size:100%;
     background-image: url(../assets/main-img.png);
 } */
-
+body {
+    background-color: black;
+}
 .mainContainer {
     max-height: 99vh;
     height: 99vh;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+}
+
+* svg {
+    fill: white;
+}
+
+.keiyaa-name-logo {
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    background: transparent;
+}
+
+.audioPlayer--skip {
+    width: 70px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.audioPlayer--play {
+    width: 100px;
+    cursor: pointer;
+}
+
+.lyrics-toggle-button {
+    text-align: center;
+    color: white;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+.lyrics-cover {
+    position: absolute;
+    padding: 0 40%;
+    padding-top: 40%;
+    height: 100%;
+}
+
+.lyrics-cover::before {
+    content: '';
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 100%;
+}
+
+.lyrics-text.noshow {
+    opacity: 0%;
+    color: white;
+    font-weight: bolder;
+    transition: opacity 1s ease-in;
+}
+
+.lyrics-text {
+    opacity: 100%;
+    color: white;
+    font-weight: bolder;
+}
+
+.track-title-showbox {
+    height: 30px;
+    background-color: white;
+    width: 300px;
+    overflow: scroll;
+}
+
+.track-title {
+    color: black;
+}
+
+.lato-font {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
 }
