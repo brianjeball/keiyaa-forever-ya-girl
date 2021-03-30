@@ -32,7 +32,7 @@ body {
 .audioPlayer--skip {
     width: 70px;
     margin-top: 20px;
-    cursor: pointer;
+    cursor: not-allowed;
 }
 
 .audioPlayer--play {

@@ -32,10 +32,10 @@ const lyricsText = document.getElementById('lyrics-text');
 const lyricsToggle = document.getElementById('lyrics-toggle');
 
 lyricsToggle.addEventListener("click", function () {
-  if(lyricsText.classList.contains('noshow')) {
-    lyricsText.classList.remove('noshow')
+  if(!lyricsText.classList.contains('noshow')) {
+    lyricsText.classList.add('noshow');
   } else {
-    lyricsText.classList.add('noshow')
+    lyricsText.classList.remove('noshow');
   }
 });
 
